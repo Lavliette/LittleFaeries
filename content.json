@@ -1,20 +1,8 @@
 {
 	"Format": "2.0.0",
-    "Changes": [  
-	
-        {
-            "LogName": "Load Shop Icon for Air Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_airfaerieicon",
-            "FromFile": "assets/airfaerieicon.png"
-        },
+    "Changes": [ 
 
-        {
-            "LogName": "Load Sprite for Air Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Air_Faerie",
-            "FromFile": "assets/Air_Faerie.png"
-        },
+// Air Faerie
 
 		{
             "LogName": "Load data for Air Faerie",
@@ -22,7 +10,7 @@
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Air Faerie": {
-                    "DisplayName": "{{i18n:Air Faerie}}", 
+                    "DisplayName": "{{i18n:Air_Faerie}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -35,7 +23,7 @@
                         "Height": 16
                     },
                     "RequiredBuilding": "Coop",
-					"ShopDisplayName": "{{i18n:Air_Faerie}}",
+					"ShopDisplayName": "{{i18n:Air_Faerie.Name}}",
 					"ShopDescription": "{{i18n:Air_FaerieDescription}}",
 					
 					"DaysToMature": "1",
@@ -71,28 +59,14 @@
         },
 
 
-{
-            "LogName": "Load Shop Icon for Dark Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_Dark_Faerie",
-            "FromFile": "assets/Darkfaerieicon.png"
-        },
 
-
- {
-            "LogName": "Load Sprite for Dark Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Dark_Faerie",
-            "FromFile": "assets/Dark_Faerie.png"
-        },
-   
 		{
             "LogName": "Load data for Dark Faerie",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Dark Faerie": {
-                    "DisplayName": "{{i18n:Dark Faerie}}", 
+                    "DisplayName": "{{i18n:Dark_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -140,44 +114,13 @@
             }
         },
 
-
-		{
-            "LogName": "Load Shop Icon for Dark Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_Dark_Faerie",
-            "FromFile": "assets/Darkfaerieicon.png"
-        },
-
-
- {
-            "LogName": "Load Sprite for Dark Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Dark_Faerie",
-            "FromFile": "assets/Dark_Faerie.png"
-        },
-       
-
- {
-            "LogName": "Load Shop Icon for Fire Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_Fire_Faerie",
-            "FromFile": "assets/firefaerieicon.png"
-        },
-
- {
-            "LogName": "Load Sprite for Fire Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Fire_Faerie",
-            "FromFile": "assets/Fire_Faerie.png"
-        },
-   
 		{
             "LogName": "Load data for Fire Faerie",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Fire Faerie": {
-                    "DisplayName": "{{i18n:Fire Faerie}}", 
+                    "DisplayName": "{{i18n:Fire_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -225,28 +168,13 @@
             }
         },
 
-	 {
-            "LogName": "Load Shop Icon for Grey Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_Grey_Faerie",
-            "FromFile": "assets/Greyfaerieicon.png"
-        },
-
-{
-            "LogName": "Load Sprite for Grey Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Grey_Faerie",
-            "FromFile": "assets/Grey_Faerie.png"
-        },
-
-
 		{
             "LogName": "Load data for Grey Faerie",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "GreyFaerie": {
-                    "DisplayName": "{{i18n:Grey Faerie}}", 
+                    "DisplayName": "{{i18n:Grey_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -294,19 +222,6 @@
             }
         },
 
-	 {
-            "LogName": "Load Shop Icon for Ice Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_Ice_Faerie",
-            "FromFile": "assets/icefaerieicon.png"
-        },
-
-        {
-            "LogName": "Load Sprite for Ice Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Ice_Faerie",
-            "FromFile": "assets/Ice_Faerie.png"
-        },
 
 		{
             "LogName": "Load data for Ice Faerie",
@@ -314,7 +229,7 @@
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Ice Faerie": {
-                    "DisplayName": "{{i18n:Ice Faerie}}", 
+                    "DisplayName": "{{i18n:Ice_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -363,20 +278,13 @@
         },
 
 
-        {
-            "LogName": "Load Sprite for Light Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Light_Faerie",
-            "FromFile": "assets/Light_Faerie.png"
-        },
-
 		{
             "LogName": "Load data for Light Faerie",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Light Faerie": {
-                    "DisplayName": "{{i18n:Light Faerie}}", 
+                    "DisplayName": "{{i18n:Light_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -425,27 +333,13 @@
         },
 
 	
-
- {
-            "LogName": "Load Shop Icon for Water Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_Water_Faerie",
-            "FromFile": "assets/waterfaerieicon.png"
-        },
-
-        {
-            "LogName": "Load Sprite for Water Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Water_Faerie",
-            "FromFile": "assets/Water_Faerie.png"
-        },
 		{
             "LogName": "Load data for Water Faerie",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Water Faerie": {
-                    "DisplayName": "{{i18n:Water Faerie}}", 
+                    "DisplayName": "{{i18n:Water_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
@@ -493,26 +387,13 @@
             }
         },
 
-{
-            "LogName": "Load Shop Icon for Wood Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_shop_wood_faerie_icon",
-            "FromFile": "assets/woodfaerieicon.png"
-        },
-   
-       {
-            "LogName": "Load Sprite for Wood Faerie",
-            "Action": "Load",
-            "Target": "Animals/{{ModId}}_Wood_Faerie",
-            "FromFile": "assets/Wood_Faerie.png"
-        },
 		{
             "LogName": "Load data for Wood Faerie",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
                     "Wood Faerie": {
-                    "DisplayName": "{{i18n:Wood Faerie}}", 
+                    "DisplayName": "{{i18n:Wood_Faerie.Name}}", 
                     "House": "Coop",
                     "Gender": "Female",
                     "PurchasePrice": 10000,
