@@ -1,0 +1,35 @@
+{
+ 
+
+    // Translations for Air Faerie
+    "Air_Faerie.Name": "Air Faerie",
+    "Air_Faerie.Description": "These faeries always seem to have their heads in the clouds.",
+    
+    // Translations for Dark Faerie
+    "Dark_Faerie.Name": "Dark Faerie",
+    "Dark_Faerie.Description": "These faeries are always mischievous but never evil.",
+
+    // Translations for Fire Faerie
+    "Dark_Faerie.Name": "Fire Faerie",
+    "Fire_Faerie.Description": "These faeries love to dance through bonfires.",
+
+ // Translations for Grey Faerie
+    "Grey_Faerie.Name": "Grey Faerie",
+    "Grey_Faerie.Description": "These faeries may look sad, but they hold great potential.",
+
+ // Translations for Ice Faerie
+    "Ice_Faerie.Name": "Ice Faerie",
+    "Ice_Faerie.Description": "These faeries are known to guide lost wanderers in the snowy mountains.",
+   
+ // Translations for Light Faerie
+    "Light_Faerie.Name": "Light Faerie",
+    "Light_Faerie.Description": "These faeries love shiny and glittery things.",
+
+ // Translations for Water Faerie
+    "Water_Faerie.Name": "Water Faerie",
+    "Water_Faerie.Description": "These faeries cause an increase of rain.",
+
+ // Translations for Wood Faerie
+    "Wood_Faerie.Name": "Wood Faerie",
+    "Wood_Faerie.Description": "These faeries love to wander off into the forest, looking for rare seeds.",
+}

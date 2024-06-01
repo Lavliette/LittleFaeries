@@ -1,0 +1,565 @@
+{
+	"Format": "2.0.0",
+    "Changes": [  
+	
+        {
+            "LogName": "Load Shop Icon for Air Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_airfaerieicon",
+            "FromFile": "assets/airfaerieicon.png"
+        },
+
+        {
+            "LogName": "Load Sprite for Air Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Air_Faerie",
+            "FromFile": "assets/Air_Faerie.png"
+        },
+
+		{
+            "LogName": "Load data for Air Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Air Faerie": {
+                    "DisplayName": "{{i18n:Air Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_airfaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Air_Faerie}}",
+					"ShopDescription": "{{i18n:Air_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "440"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "872"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Air_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+
+{
+            "LogName": "Load Shop Icon for Dark Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_Dark_Faerie",
+            "FromFile": "assets/Darkfaerieicon.png"
+        },
+
+
+ {
+            "LogName": "Load Sprite for Dark Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Dark_Faerie",
+            "FromFile": "assets/Dark_Faerie.png"
+        },
+   
+		{
+            "LogName": "Load data for Dark Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Dark Faerie": {
+                    "DisplayName": "{{i18n:Dark Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_darkfaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Dark_Faerie}}",
+					"ShopDescription": "{{i18n:Dark_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "769"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "439"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Dark_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+
+		{
+            "LogName": "Load Shop Icon for Dark Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_Dark_Faerie",
+            "FromFile": "assets/Darkfaerieicon.png"
+        },
+
+
+ {
+            "LogName": "Load Sprite for Dark Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Dark_Faerie",
+            "FromFile": "assets/Dark_Faerie.png"
+        },
+       
+
+ {
+            "LogName": "Load Shop Icon for Fire Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_Fire_Faerie",
+            "FromFile": "assets/firefaerieicon.png"
+        },
+
+ {
+            "LogName": "Load Sprite for Fire Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Fire_Faerie",
+            "FromFile": "assets/Fire_Faerie.png"
+        },
+   
+		{
+            "LogName": "Load data for Fire Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Fire Faerie": {
+                    "DisplayName": "{{i18n:Fire Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_firefaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Fire_Faerie}}",
+					"ShopDescription": "{{i18n:Fire_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "851"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "848"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Fire_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+	 {
+            "LogName": "Load Shop Icon for Grey Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_Grey_Faerie",
+            "FromFile": "assets/Greyfaerieicon.png"
+        },
+
+{
+            "LogName": "Load Sprite for Grey Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Grey_Faerie",
+            "FromFile": "assets/Grey_Faerie.png"
+        },
+
+
+		{
+            "LogName": "Load data for Grey Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "GreyFaerie": {
+                    "DisplayName": "{{i18n:Grey Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_greyfaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Grey_Faerie}}",
+					"ShopDescription": "{{i18n:Grey_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "168"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "74"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Grey_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+	 {
+            "LogName": "Load Shop Icon for Ice Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_Ice_Faerie",
+            "FromFile": "assets/icefaerieicon.png"
+        },
+
+        {
+            "LogName": "Load Sprite for Ice Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Ice_Faerie",
+            "FromFile": "assets/Ice_Faerie.png"
+        },
+
+		{
+            "LogName": "Load data for Ice Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Ice Faerie": {
+                    "DisplayName": "{{i18n:Ice Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_icefaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Ice_Faerie}}",
+					"ShopDescription": "{{i18n:Ice_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "84"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "72"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Ice_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+
+        {
+            "LogName": "Load Sprite for Light Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Light_Faerie",
+            "FromFile": "assets/Light_Faerie.png"
+        },
+
+		{
+            "LogName": "Load data for Light Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Light Faerie": {
+                    "DisplayName": "{{i18n:Light Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_lightfaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Light_Faerie}}",
+					"ShopDescription": "{{i18n:Light_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "768"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "166"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Light_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+	
+
+ {
+            "LogName": "Load Shop Icon for Water Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_Water_Faerie",
+            "FromFile": "assets/waterfaerieicon.png"
+        },
+
+        {
+            "LogName": "Load Sprite for Water Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Water_Faerie",
+            "FromFile": "assets/Water_Faerie.png"
+        },
+		{
+            "LogName": "Load data for Water Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Water Faerie": {
+                    "DisplayName": "{{i18n:Water Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_waterfaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Water_Faerie}}",
+					"ShopDescription": "{{i18n:Water_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "838"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "797"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Water_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+
+{
+            "LogName": "Load Shop Icon for Wood Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_shop_wood_faerie_icon",
+            "FromFile": "assets/woodfaerieicon.png"
+        },
+   
+       {
+            "LogName": "Load Sprite for Wood Faerie",
+            "Action": "Load",
+            "Target": "Animals/{{ModId}}_Wood_Faerie",
+            "FromFile": "assets/Wood_Faerie.png"
+        },
+		{
+            "LogName": "Load data for Wood Faerie",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                    "Wood Faerie": {
+                    "DisplayName": "{{i18n:Wood Faerie}}", 
+                    "House": "Coop",
+                    "Gender": "Female",
+                    "PurchasePrice": 10000,
+					"SellPrice": 4000,
+                    "ShopTexture": "Animals/{{ModId}}_woodfaerieicon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+					"ShopDisplayName": "{{i18n:Wood_Faerie}}",
+					"ShopDescription": "{{i18n:Wood_FaerieDescription}}",
+					
+					"DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "770"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "347"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Texture": "Animals/{{ModID}}_Wood_Faerie",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "UseDoubleUniqueAnimationFrames": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        }
+
+]
+
+}
